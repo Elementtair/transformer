@@ -44,11 +44,11 @@ Two options
 
 ## Before starting
 
-Configure the **FRIENDLY_URL** section in the files /app/config/install.php and /app/config/main.dist.php ( [topic](https://forkbb.ru/topic/95/transliteratsiya-translitation) ).
+Configure the **FRIENDLY_URL** section in the files /app/config/install.php and /app/config/main.dist.php ( [topic](https://forkbb.org/topic/95/transliteratsiya-translitation) ).
 
 ## Links
 
-* Homepage: https://forkbb.ru/
+* Homepage: https://forkbb.org/
 * GitHub: https://github.com/forkbb/transformer
 
 ## License
