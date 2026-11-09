@@ -326,6 +326,11 @@ abstract class AbstractDriver extends Model
         }
 
         $vars['group_id'] = $this->replGroups[$vars['group_id']] ?? $vars['group_id'];
+
+        if (! isset($this->replForums[$vars['forum_id']])) {
+            return true;
+        }
+
         $vars['forum_id'] = $this->replForums[$vars['forum_id']];
 
         return false !== $db->exec($this->insertQuery, $vars);
